@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@pixiv/three-vrm": "^1.0.5",
+    "@types/three": "^0.146.0",
+    "three": "^0.147.0",
+    "typescript": "^4.9.3",
+    "yarn": "^1.22.19"
+  },
+  "name": "threeVRMwithBVH",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:20m61/threeVRMwithBVH.git",
+  "author": "20m61 <ifm0s1m0s1m0nn@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  }
+}
